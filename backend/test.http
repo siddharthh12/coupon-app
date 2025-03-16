@@ -1,0 +1,17 @@
+### Test API
+GET http://localhost:5000/
+
+### Get Available Coupons
+GET http://localhost:5000/api/coupons/available
+
+### Claim a Coupon
+POST http://localhost:5000/api/coupons/claim
+
+### Admin Login
+POST http://localhost:5000/api/admin/login
+Content-Type: application/json
+
+{
+    "username": "superadmin",
+    "password": "admin123"
+}
